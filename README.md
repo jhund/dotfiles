@@ -10,7 +10,7 @@ To include this remote config file in a project, create a project `.rubocop.yml`
 
 ```yml
 inherit_from:
-  - https://github.com/jhund/dotfiles/blob/master/.rubocop.yml
+  - https://raw.githubusercontent.com/jhund/dotfiles/master/.rubocop.yml
 ```
 
 See [Rubocop documentation](https://docs.rubocop.org/en/latest/configuration/#inheriting-configuration-from-a-remote-url) for more info.
