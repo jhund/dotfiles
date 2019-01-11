@@ -13,4 +13,11 @@ inherit_from:
   - https://raw.githubusercontent.com/jhund/dotfiles/master/.rubocop.yml
 ```
 
+To gitignore the cached remote file, add this line to your .gitignore:
+
+```
+# Ignore cached remote rubocop config file
+.rubocop-*
+```
+
 See [Rubocop documentation](https://docs.rubocop.org/en/latest/configuration/#inheriting-configuration-from-a-remote-url) for more info.
