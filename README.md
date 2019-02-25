@@ -6,7 +6,11 @@ Various config dotfiles to be shared between ClearCove projects.
 
 We run it with `rubocop --safe-auto-correct`.
 
-To include this remote config file in a project, create a project `.rubocop.yml` file with the following contents:
+To use rubocop with one of your projects follow these steps:
+
+* Add rubocop to `development` group in your gemfile: `gem "rubocop"`
+* `bundle install`
+* Add this remote config file to the project. Create a file `.rubocop.yml` at the root with the following contents:
 
 ```yml
 inherit_from:
