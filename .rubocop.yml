@@ -107,6 +107,10 @@ Metrics/ModuleLength:
   Description: 'Avoid modules longer than 100 lines of code.'
   Enabled: false
 
+Naming/PredicateName:
+  Description: 'Check the names of predicate methods.'
+  # ClearCove: We allow names like "has_admin_role?".
+  Enabled: false
 
 Style/StringLiterals:
   Description: 'Checks if uses of quotes match the configured preference.'
