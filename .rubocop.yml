@@ -76,6 +76,10 @@ Metrics/ClassLength:
   Description: 'Avoid classes longer than 100 lines of code.'
   Enabled: false
 
+Metrics/CyclomaticComplexity:
+  Description: 'This cop checks that the cyclomatic complexity of methods is not higher than the configured maximum.'
+  Enabled: false
+  
 Metrics/LineLength:
   Description: 'Limit lines to 80 characters.'
   StyleGuide: '#80-character-limits'
